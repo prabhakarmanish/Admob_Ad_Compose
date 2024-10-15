@@ -43,8 +43,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun ShowBanner() {
-    Column(modifier = Modifier.fillMaxSize()) {
-
+    Column(modifier = Modifier.fillMaxSize())
+    {
 //                Dimensions: 320x50
 //                Description: The standard ad banner size, commonly used.
         BannerAd(adUnitId = "ca-app-pub-3940256099942544/6300978111", adSize = AdSize.BANNER)
